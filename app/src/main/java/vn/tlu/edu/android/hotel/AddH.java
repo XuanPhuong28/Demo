@@ -24,7 +24,7 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.Random;
-public class AddH extends AppCompatActivity{
+public class AddH extends vn.tlu.edu.android.hotel.AppCompatActivity {
 
     String Greek,HJK,M,HIN,HLU,g,jk,m,in,l;
     EditText e1,e2,ed1,ed2;
@@ -158,13 +158,13 @@ public class AddH extends AppCompatActivity{
                             }
                             else
                             {
-                                ed1.setError("You have entered the wrong date the date is before the present date");
+                                ed1.setError("Lỗi");
                                 ed1.setText("");
                             }
                         }
                         else
                         {
-                            ed1.setError("You have entered the wrong date the date is before the present date");
+                            ed1.setError("Lỗi");
                             ed1.setText("");
                         }
                     }
