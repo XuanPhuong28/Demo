@@ -98,7 +98,7 @@ public class DeleteOfList extends AppCompatActivity{
                             });
                     AlertDialog alert = builder.create();
                     alert.show();
-                    e.setText("");
+                    e.setText("Xinchao");
 
 
                 }
