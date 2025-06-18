@@ -77,12 +77,12 @@ public class DeleteOfList extends AppCompatActivity{
 
                 if(a.isEmpty())
                 {
-                    e.setError("Field Missing");
+                    e.setError("Looix");
                 }
                 else {
                     b = Long.parseLong(a);
                     final AlertDialog.Builder builder = new AlertDialog.Builder(DeleteOfList.this);
-                    builder.setTitle("DELETE BOOKING!").setCancelable(false).setMessage("Do You Want To Delete Your Booking").
+                    builder.setTitle("Xoa lich dat thanh cong!").setCancelable(false).setMessage("Do You Want To Delete Your Booking").
                             setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                                 @Override
                                 public void onClick(DialogInterface dialog, int which) {
